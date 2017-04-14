@@ -1,0 +1,122 @@
+{
+	"index.html": {
+		"resources": [
+			"css/comment.css",
+			"img/2017-04-08_163137.jpg",
+			"img/2017-04-09_184604.jpg",
+			"img/2017-04-09_195009.jpg",
+			"icon/iconfont.css",
+			"js/rem.js",
+			"img/2017-04-09_184950.jpg",
+			"img/2017-04-09_192342.jpg",
+			"css/jiemiangaiban.css",
+			"img/2017-04-09_192359.jpg",
+			"img/2017-04-09_184716.jpg",
+			"img/2017-04-09_192322.jpg",
+			"img/2017-04-09_184835.jpg",
+			"img/2017-04-09_184900.jpg",
+			"icon/iconfont.woff",
+			"img/2017-04-08_141416.jpg",
+			"img/2017-04-09_194907.jpg",
+			"img/2017-04-09_184920.jpg",
+			"img/2017-04-09_184745.jpg",
+			"img/2017-04-09_190508.jpg",
+			"guanyuwomen.html",
+			"gaoxin.html",
+			"jinpaishizi.html",
+			"meitibaodao.html",
+			"remen.html"
+		],
+		"refer": [
+			"guanyuwomen.html",
+			"gaoxin.html",
+			"jinpaishizi.html",
+			"meitibaodao.html",
+			"remen.html"
+		]
+	},
+	"guanyuwomen.html": {
+		"resources": [
+			"img/2017-04-10_085634.jpg",
+			"img/2017-04-10_085252.jpg",
+			"img/2017-04-10_085442.jpg",
+			"css/guanyuwomen.css",
+			"img/2017-04-10_085335.jpg",
+			"img/2017-04-10_085458.jpg",
+			"img/2017-04-10_094856.jpg",
+			"img/2017-04-10_085512.jpg",
+			"img/2017-04-10_085321.jpg",
+			"img/2017-04-10_085306.jpg",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"gaoxin.html": {
+		"resources": [
+			"css/index.css",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"jinpaishizi.html": {
+		"resources": [
+			"img/2017-04-09_214530.jpg",
+			"css/jinpaishizi.css",
+			"shizixiangqing.html"
+		],
+		"refer": [
+			"shizixiangqing.html"
+		]
+	},
+	"shizixiangqing.html": {
+		"resources": [
+			"css/shizixiangqing.css",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"meitibaodao.html": {
+		"resources": [
+			"index.html",
+			"img/tupiankuang.png",
+			"css/meitibaodao.css",
+			"img/23.png",
+			"img/21.png",
+			"img/22.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"rexiang.html": {
+		"resources": [
+			"img/02.png",
+			"css/rexiang.css",
+			"img/05.png",
+			"img/06.png",
+			"img/03.png",
+			"img/04.png",
+			"img/01.png",
+			"img/07.png",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"remen.html": {
+		"resources": [
+			"css/remen.css",
+			"rexiang.html"
+		],
+		"refer": [
+			"rexiang.html"
+		]
+	}
+}

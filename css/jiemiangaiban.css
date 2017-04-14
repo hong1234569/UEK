@@ -1,0 +1,300 @@
+body,html{
+	width:100%;
+	height:100%;	
+}
+body{
+	overflow: scroll;
+}
+html{
+	position: relative;
+	overflow: hidden;
+}
+
+
+.tittle{
+	width:100%;
+	height:0.93rem;
+	background: #0078E6;
+	line-height: 0.93rem;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 999;
+}
+.tittle img{
+	display: block;
+	height: 100%;
+	float:left;
+	margin-left:2.5rem;
+}
+.tittle a{
+	font-size: 0.37rem;
+	color: #FFFFFF;
+	display: block;
+	float:left;
+	font-weight: 500;
+}
+
+
+
+/*banner*/
+
+.banner{
+	width:100%;
+	position: relative;
+	margin-top:0.92rem;
+}
+.banner img{
+	width:100%;
+	display: block;
+}
+.banner .zhezhao{
+	width:100%;
+	height: 100%;
+	background: rgba(28,29,30,0.6);
+	position: absolute;
+	top: 0px;
+	text-align: center;
+}
+.banner .zhezhao>i{
+	font-style: normal;
+	font-size: 0.32rem;
+	color:#FFFFFF;
+	line-height: 2.66rem;
+	font-weight: 600;
+}
+.banner .zhezhao>span{
+	font-size: 0.32rem;
+	color:#ED8A19;
+	line-height: 2.66rem;
+	font-weight: 600;
+}
+.banner .zhezhao>em{
+	font-style: normal;
+	font-size: 0.32rem;
+	color:#03B6F4;
+	line-height: 2.66rem;
+	font-weight: 600;
+}
+.banner .zhezhao>i:nth-of-type(2){
+	margin-left:0.2rem;
+}
+
+
+/*图标*/
+.tubiao{
+	width:100%;
+	background: #F4F5F9;
+}
+.tubiao>ul{
+	width:100%;
+	box-sizing: border-box;
+	padding: 0.2rem 0.05rem;
+	background: #F4F5F9;
+	overflow: hidden;
+}
+.tubiao>ul>li{
+	width:25%;
+	box-sizing: border-box;
+	padding: 0.15rem;
+	float:left;
+	text-align: center;
+}
+.tubiao>ul>li>a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+
+.tubiao>ul>li>a>img{
+	width:100%;
+	display: block;
+}
+.tubiao>ul>li>a>span{
+	font-style: normal;
+	font-size: 0.24rem;
+	line-height: 0.54rem;
+	font-weight: 600;
+	color: #000000;
+}
+.tubiao>ul>li:nth-child(4)~li{
+	padding-top:0rem;
+}
+
+/*服务体系*/
+.fuwu{
+	width:100%;
+	box-sizing: border-box;
+	padding:0.2rem 0rem; 	
+	text-align: center;	
+}
+.fuwu>a{
+	font-size:0.24rem ;
+	color: #1378BA;
+	font-weight: 600;
+}
+
+/*免费体检*/
+.mianfei{
+	width:100%;
+	overflow: hidden;
+	
+}
+.mianfei>ul{
+	width:50%;
+	float:left;
+	background:#FFFFFF;
+	box-sizing: border-box;
+	border-top:0.01rem solid #E8E8E8;
+	border-right:0.01rem solid #E8E8E8;
+	overflow: hidden;
+}
+.mianfei>ul:nth-child(2){
+	border-right:0rem;
+}
+.mianfei>ul>li{
+	width:50%;
+	float:left;
+	box-sizing: border-box;
+	padding:0.38rem 0.18rem;
+}
+.mianfei>ul>li>i{
+	font-style:normal;
+	font-size: 0.24rem;
+	color: #000000;
+	font-weight: 600;
+}
+.mianfei>ul>li>span{
+	font-size: 0.16rem;
+	color: #999999;
+	line-height: 0.38rem;
+}
+.mianfei>ul>li:nth-child(2){
+	padding:0rem ;
+}
+.mianfei>ul>li>img{
+	display: block;
+	width:100%;
+}
+
+
+/*免费试听*/
+.shiting{
+	width:100%;
+	overflow: hidden;
+	
+}
+.shiting .dongtai{
+	width:33.3%;
+	float:left;
+	box-sizing: border-box;
+	border-top: 1px solid #E8E8E8;
+	border-right: 1px solid #E8E8E8;
+	overflow: hidden;
+}
+.shiting .dongtai>img{
+	display: block;
+	width:40%;
+	float:left;
+}
+.shiting .dongtai>.qianren{
+	width:60%;
+	float:left;
+	box-sizing: border-box;
+	padding-top:0.38rem;
+}
+.shiting .dongtai>.qianren>i{
+	font-style:normal;
+	font-size: 0.24rem;
+	color: #000000;
+	font-weight: 600;
+}
+.shiting .dongtai>.qianren>span{
+	font-size: 0.16rem;
+	color: #999999;
+	line-height: 0.38rem;
+}
+.shiting .dongtai:nth-child(3){
+	border-right: 0px solid #E8E8E8;
+}
+
+
+/*免费拨打电话*/
+.dianhua{
+	width:100%;
+	height: 0.92rem;
+	background: #E7E7E7;
+	box-sizing: border-box;
+	padding: 0.1rem;
+	position: absolute;
+	bottom: 0rem;
+	left:0px;
+}
+.dianhua:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+.dianhua .chaxun{
+	display: block;
+	width:33.3%;
+	float:left;
+	line-height:0.72rem;
+}
+.dianhua .chaxuna{
+	display: block;
+	width:33.3%;
+	float:left;
+	line-height:0.72rem;
+}
+.dianhua .chaxun>span{
+	font-size: 0.3rem;
+	line-height:0.72rem;
+	color: #7B7B7B;
+}
+.dianhua .chaxun>i{
+	font-style:normal;
+	font-size: 0.24rem;
+	color: #7B7B7B;
+}
+.dianhua .chaxuna>span{
+	float:right;
+	font-size: 0.3rem;
+	margin-right:0.08rem;
+	color: #7B7B7B;
+}
+.dianhua .chaxuna>i{
+	font-style:normal;
+	font-size: 0.24rem;
+	color: #7B7B7B;
+	float:right;
+	line-height: 0.72rem;
+}
+.dianhua .chaxun>.fangkuai{
+	width:2.38rem;
+	height: 0.8rem;
+	background: #FF7E00;
+	border-radius: 0.08rem;
+	margin-top:-0.22rem;
+	box-shadow: 0rem  0rem 0.5rem rgba(255,126,0,0.5);
+}
+.dianhua .chaxun>.fangkuai>span{
+	font-size: 0.3rem;
+	color: #ffffff;
+	margin-left:0.5rem;
+}
+.dianhua .chaxun>.fangkuai>em{
+	font-style:normal;
+	font-size: 0.26rem;
+	color: #ffffff;
+}
+
+.dianhuaa{
+	width: 100%;
+	height: 0.92rem;
+}
+
+
+
+
+
